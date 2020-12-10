@@ -84,7 +84,6 @@
     "clean": "node ../common/node_modules/rimraf/bin.js ./dist",
     "prebuild": "yarn run clean && yarn install --mutex network",
     "preclean": "cd ../common && yarn install --mutex network",
-    "prepack": "node ../build/embed-version.js",
     "test": "echo \"Run 'yarn test' in the 'clients/ts' folder to test this package\" && exit 1"
   },
   "typings": "./dist/esm/index.d.ts",
