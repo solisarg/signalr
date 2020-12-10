@@ -10,7 +10,8 @@ line 1: comment node dependency
 Line 136: delete Buffer from input types
 parseMessages(input: string | ArrayBuffer, logger: ILogger): HubMessage[];
 
-Other than that this is the same microsoft library forked with the only purpose of app compilation, so we highly encourage you to use the original library, except if you have the exact same problem
+Other than that this is the same microsoft library forked with the only purpose of app compilation, so we highly encourage you to use the original library, except if you have
+
 
 ## Installation
 
@@ -95,4 +96,3 @@ connection.on("send", data => {
 connection.start()
     .then(() => connection.invoke("send", "Hello"));
 ```
-# signalr
